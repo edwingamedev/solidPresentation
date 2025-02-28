@@ -15,6 +15,7 @@ namespace NonSolid.Units
             }
 
             Vector3 direction = new Vector3(Input.GetAxis("Vertical"), 0, -Input.GetAxis("Horizontal"));
+
             Move(direction / 100);
         }
 
